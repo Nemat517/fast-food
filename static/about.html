@@ -1,0 +1,253 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html> >
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Fast Food</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+
+    <!-- Owl Carousel CSS: tashqi kutubxona -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <!-- Nice Select CSS: tashqi kutubxona -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="{% static 'images/hero-bg.jpg' %}" alt="Fast Food">
+        </div>
+
+        <!-- Header -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+
+                    <a class="navbar-brand" href="{% static 'index.html' %}">
+                        <span>Fast Food</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% static 'index.html' %}">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% static 'menu.html' %}">Menu</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="{% static 'about.html' %}">
+                                    About <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% static 'book.html' %}">Book Table</a>
+                            </li>
+                        </ul>
+
+                        <div class="user_option">
+                            <a href="0" class="user_link">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </a>
+
+                            <a class="cart_link" href="#">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </a>
+
+                            <form class="form-inline" action="#" method="get">
+                                <button class="btn my-2 my-sm-0 nav_search-btn"
+                                    type="submit" aria-label="Search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+
+                            <a href="{% static 'menu.html' %}" class="order_online">
+                                Order Online
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!-- About section -->
+    <section class="about_section layout_padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="img-box">
+                        <img src="{% static 'images/about-img.png' %}" alt="Fast Food taomlari">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div class="heading_container">
+                            <h2>Bizning fast foodlarimiz</h2>
+                        </div>
+
+                        <p>
+                            Bizning burgerlarimiz yangi va sifatli mahsulotlardan tayyorlanadi.
+                            Har bir burger o‘ziga xos ta’m va ajoyib ko‘rinishga ega.
+                            Mazali burger, yangi sabzavotlar va maxsus souslar — barchasi siz uchun!
+                        </p>
+
+                        <a href="{% static 'menu.html' %}">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4>Bog'lanish uchun</h4>
+
+                        <div class="contact_link_box">
+                            <a href="#">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>Joylashuv</span>
+                            </a>
+
+                            <a href="tel:+998946479093">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>Tel: +998 94 647 9093</span>
+                            </a>
+
+                            <a href="mailto:xasanovn@gmail.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>xasanovn@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a href="{% static 'index.html' %}" class="footer-logo">
+                            Fast Food
+                        </a>
+
+                        <p>
+                            Issiq va mazali fast-fud bir necha daqiqada tayyor!
+                            Eng sarxil masalliqlardan tayyorlangan burger, pitsa
+                            va qisir-qisir kartoshka-fri. Hoziroq buyurtma bering
+                            va sevimli taomlaringizdan bahramand bo'ling.
+                        </p>
+
+                        <div class="footer_social">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" aria-label="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+
+                            <a href="#" aria-label="Pinterest">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 footer-col">
+                    <h4>Ochilish vaqtimiz</h4>
+                    <p>Har kuni</p>
+                    <p>10:00 dan 22:00 gacha</p>
+                </div>
+
+            </div>
+
+            <div class="footer-info">
+                <p>
+                    &copy; <span id="displayYear"></span> All Rights Reserved By
+                    <a href="https://html.design/">Free Html Templates</a>
+                    <br><br>
+                    &copy; <span id="displayYear2"></span> Distributed By
+                    <a href="https://themewagon.com/" target="_blank" rel="noopener noreferrer">ThemeWagon</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+
+    <script src="{% static 'js/custom.js' %}"></script>
+
+    <script>
+        document.getElementById("displayYear").textContent = new Date().getFullYear();
+        document.getElementById("displayYear2").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

@@ -25,7 +25,7 @@ va commit qil.
 
 **2. `static` papka yo'q**
 Shablonlarda `css/style.css`, `images/hero-bg.jpg`, `js/custom.js` ishlatilgan, lekin loyihada bu fayllar yo'q.
-Shablon (Feane) dan `css`, `js`, `images` papkalarini olib, loyiha ichida `static/` papkaga joyla.
+Shablon (Feane) dan `css`, `js`, `images` papkalarini olib, loyiha ichida `static` papkaga joyla.
 `settings.py` ga shuni qo'sh:
 ```python
 STATICFILES_DIRS = [BASE_DIR / 'static']
